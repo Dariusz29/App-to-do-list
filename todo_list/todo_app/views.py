@@ -10,6 +10,9 @@ from django.views.generic import (
 from .models import ToDoItem, ToDoList
 
 
+
+
+
 class ListListView(ListView):
     model = ToDoList
     template_name = "todo_app/index.html"
